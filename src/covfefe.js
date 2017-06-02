@@ -4,7 +4,6 @@ import covfefe from 'covfefe'
 
 
 export default function Covfefe ({children, ...rest}) {
-  console.log('CHILEN', children)
   if (typeof children !== 'string') {
     return children;
   }
