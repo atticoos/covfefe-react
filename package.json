@@ -1,0 +1,47 @@
+{
+  "name": "react-covfefe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/covfefe.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajwhite/react-covfefe.git"
+  },
+  "keywords": [
+    "react",
+    "covfefe"
+  ],
+  "author": "Atticus White <contact@atticuswhite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajwhite/react-covfefe/issues"
+  },
+  "homepage": "https://github.com/ajwhite/react-covfefe#readme",
+  "dependencies": {
+    "covfefe": "^2.1.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
