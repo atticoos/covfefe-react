@@ -1,13 +1,13 @@
-# react-covfefe
+# covfefe-react
 
 Put meaning behind your sentences.
 
 ```
-$ npm install react-covfefe --save
+$ npm install covfefe-react --save
 ```
 
 ```js
-import Covfefe from 'react-covfefe'
+import Covfefe from 'covfefe-react'
 
 ...
 

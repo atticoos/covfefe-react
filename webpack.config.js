@@ -15,7 +15,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'react-covfefe': path.join(__dirname, 'src/covfefe')
+      'covfefe-react': path.join(__dirname, 'src/covfefe')
     }
   },
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Covfefe from 'react-covfefe'
+import Covfefe from 'covfefe-react'
 
 const App = () => (
   <div style={{padding: 60}}>
